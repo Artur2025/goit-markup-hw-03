@@ -1,0 +1,20 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color: var(--color-title);
+  list-style: none;
+  letter-spacing: 0.03em;
+  background: #e5e5e5;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
