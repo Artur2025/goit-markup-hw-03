@@ -124,6 +124,9 @@ button {
 }
 
 /* care style */
+.care-list {
+  width: 270px;
+}
 .care {
   display: flex;
   padding-top: 94px;
@@ -132,8 +135,12 @@ button {
 }
 
 .care-list .title {
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 1.172;
   margin-bottom: 10px;
 }
+
 .busyness {
   display: flex;
   padding-bottom: 94px;
@@ -195,6 +202,8 @@ button {
 /* portfolio style */
 
 .container-button {
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 .container-button button {
   font-family: 'Roboto';
@@ -222,8 +231,6 @@ button {
   margin-left: 8px;
 }
 .item-button {
-  padding-top: 94px;
-  padding-bottom: 50px;
 }
 .portfolio-list {
   display: flex;
@@ -234,7 +241,9 @@ button {
 .portfolio-item {
   margin-right: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #eeeeee;
+  box-shadow: 0 1px 1px 1px #eeeeee;
+
+  /* border-bottom: 1px solid #eeeeee; */
 }
 .portfolio .container {
   background: var(--color-white);
